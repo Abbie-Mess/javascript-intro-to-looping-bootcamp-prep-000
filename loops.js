@@ -32,9 +32,9 @@ function maybeTrue() {
 
 function doWhileLoop(array){
 do{
-  var newArray = array.pop
-  return (newArray)
-}while (newArray.length > 0 && maybeTrue());
+  var newArray = array.pop()
+  return (array)
+}while (array.length > 0 && maybeTrue());
 }
 
 doWhileLoop(array)
