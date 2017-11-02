@@ -33,7 +33,7 @@ function maybeTrue() {
 function doWhileLoop(array){
 do{
   //var newArray = array.pop()
-  array.pop
+  array.pop()
   return (array)
 }while (array.length > 0 && maybeTrue());
 }
